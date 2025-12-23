@@ -61,14 +61,14 @@ class Email implements DataTypeInterface
      */
     protected function buildEmailString()
     {
-        $email = $this->prefix.$this->email;
+        $email = $this->prefix . $this->email;
 
         if (isset($this->subject) || isset($this->body)) {
             $data = [
                 'subject' => $this->subject,
                 'body'    => $this->body,
             ];
-            $email .= '?'.http_build_query($data);
+            $email .= '?' . http_build_query($data);
         }
 
         return $email;

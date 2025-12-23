@@ -50,6 +50,6 @@ class Geo implements DataTypeInterface
      */
     public function __toString()
     {
-        return $this->prefix.$this->latitude.$this->separator.$this->longitude;
+        return $this->prefix . $this->latitude . $this->separator . $this->longitude;
     }
 }

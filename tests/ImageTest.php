@@ -35,11 +35,11 @@ class ImageTest extends TestCase
 
     public function setUp(): void
     {
-        $this->imagePath = file_get_contents(dirname(__FILE__).'/Images/simplesoftware-icon-grey-blue.png');
+        $this->imagePath = file_get_contents(dirname(__FILE__) . '/Images/simplesoftware-icon-grey-blue.png');
         $this->image = new Image($this->imagePath);
 
-        $this->testImageSaveLocation = dirname(__FILE__).'/testImage.png';
-        $this->compareTestSaveLocation = dirname(__FILE__).'/compareImage.png';
+        $this->testImageSaveLocation = dirname(__FILE__) . '/testImage.png';
+        $this->compareTestSaveLocation = dirname(__FILE__) . '/compareImage.png';
     }
 
     public function tearDown(): void

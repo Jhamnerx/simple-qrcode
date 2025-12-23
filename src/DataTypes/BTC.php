@@ -120,7 +120,7 @@ class BTC implements DataTypeInterface
             'r'         => $this->returnAddress,
         ]);
 
-        $btc = $this->prefix.$this->address.'?'.$query;
+        $btc = $this->prefix . $this->address . '?' . $query;
 
         return $btc;
     }

@@ -35,6 +35,6 @@ class PhoneNumber implements DataTypeInterface
      */
     public function __toString()
     {
-        return $this->prefix.$this->phoneNumber;
+        return $this->prefix . $this->phoneNumber;
     }
 }

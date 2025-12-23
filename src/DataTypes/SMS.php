@@ -74,10 +74,10 @@ class SMS implements DataTypeInterface
      */
     protected function buildSMSString()
     {
-        $sms = $this->prefix.$this->phoneNumber;
+        $sms = $this->prefix . $this->phoneNumber;
 
         if (isset($this->message)) {
-            $sms .= $this->separator.$this->message;
+            $sms .= $this->separator . $this->message;
         }
 
         return $sms;

@@ -1,9 +1,9 @@
 <?php
 
-namespace SimpleSoftwareIO\QrCode\Facades;
+namespace Talentus\QrCode\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use SimpleSoftwareIO\QrCode\Generator;
+use Talentus\QrCode\Generator;
 
 class QrCode extends Facade
 {

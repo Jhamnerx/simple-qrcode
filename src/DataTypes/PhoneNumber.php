@@ -1,6 +1,6 @@
 <?php
 
-namespace SimpleSoftwareIO\QrCode\DataTypes;
+namespace Talentus\QrCode\DataTypes;
 
 class PhoneNumber implements DataTypeInterface
 {

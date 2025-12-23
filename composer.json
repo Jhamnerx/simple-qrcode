@@ -31,7 +31,7 @@
   },
   "autoload": {
     "psr-4": {
-      "SimpleSoftwareIO\\QrCode\\": "src"
+      "Talentus\\QrCode\\": "src"
     }
   },
   "scripts": {
@@ -40,10 +40,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "SimpleSoftwareIO\\QrCode\\QrCodeServiceProvider"
+        "Talentus\\QrCode\\QrCodeServiceProvider"
       ],
       "aliases": {
-        "QrCode": "SimpleSoftwareIO\\QrCode\\Facades\\QrCode"
+        "QrCode": "Talentus\\QrCode\\Facades\\QrCode"
       }
     }
   }

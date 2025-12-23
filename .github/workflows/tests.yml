@@ -16,7 +16,9 @@ jobs:
                 php: [8.1, 8.2, 8.3]
                 laravel: [10.*, 11.*, 12.*]
                 exclude:
-                    # Laravel 12 requiere PHP 8.2+
+                    # Laravel 11 y 12 requieren PHP 8.2+
+                    - php: 8.1
+                      laravel: 11.*
                     - php: 8.1
                       laravel: 12.*
 

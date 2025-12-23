@@ -1,44 +1,50 @@
 {
-    "name": "talentus/simple-qrcode",
-    "description": "Simple QrCode is a QR code generator made for Laravel.",
-    "keywords": ["qrcode", "laravel", "simple", "generator", "wrapper"],
-    "homepage": "https://www.simplesoftware.io/#/docs/simple-qrcode",
-    "license" : "MIT",
-    "authors": [
-        {
-            "name": "Talentus",
-            "email": "dev@talentus.pe"
-        }
-    ],
-    "require": {
-        "php": "^8.1",
-      	"ext-gd": "*",
-        "bacon/bacon-qr-code": "^2.0",
-        "illuminate/support": "^10.0|^11.0|^12.0"
-    },
-    "require-dev": {
-        "mockery/mockery": "~1",
-        "phpunit/phpunit": "~9"
-    },
-    "suggest": {
-        "ext-imagick": "Allows the generation of PNG QrCodes."
-    },
-    "autoload": {
-        "psr-4": {
-            "SimpleSoftwareIO\\QrCode\\": "src"
-        }
-    },
-    "scripts": {
-        "test": "phpunit"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "SimpleSoftwareIO\\QrCode\\QrCodeServiceProvider"
-            ],
-            "aliases": {
-                "QrCode": "SimpleSoftwareIO\\QrCode\\Facades\\QrCode"
-            }
-        }
+  "name": "talentus/simple-qrcode",
+  "description": "Simple QrCode is a QR code generator made for Laravel.",
+  "keywords": [
+    "qrcode",
+    "laravel",
+    "simple",
+    "generator",
+    "wrapper"
+  ],
+  "homepage": "https://www.simplesoftware.io/#/docs/simple-qrcode",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Talentus",
+      "email": "dev@talentus.pe"
     }
+  ],
+  "require": {
+    "php": "^8.1",
+    "ext-gd": "*",
+    "bacon/bacon-qr-code": "^2.0",
+    "illuminate/support": "^10.0|^11.0|^12.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "~1",
+    "phpunit/phpunit": "~9"
+  },
+  "suggest": {
+    "ext-imagick": "Allows the generation of PNG QrCodes."
+  },
+  "autoload": {
+    "psr-4": {
+      "SimpleSoftwareIO\\QrCode\\": "src"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SimpleSoftwareIO\\QrCode\\QrCodeServiceProvider"
+      ],
+      "aliases": {
+        "QrCode": "SimpleSoftwareIO\\QrCode\\Facades\\QrCode"
+      }
+    }
+  }
 }

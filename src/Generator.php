@@ -166,7 +166,7 @@ class Generator
      * @throws WriterException
      * @throws InvalidArgumentException
      */
-    public function generate(string $text, string $filename = null)
+    public function generate(string $text, ?string $filename = null)
     {
         $qrCode = $this->getWriter($this->getRenderer())->writeString($text, $this->encoding, $this->errorCorrection);
 
@@ -199,7 +199,7 @@ class Generator
     public function merge(string $filepath, float $percentage = .2, bool $absolute = false): self
     {
         if (function_exists('base_path') && ! $absolute) {
-            $filepath = base_path().$filepath;
+            $filepath = base_path() . $filepath;
         }
 
         $this->imageMerge = file_get_contents($filepath);
@@ -571,7 +571,7 @@ class Generator
     {
         $method = ucfirst($method);
 
-        $class = "SimpleSoftwareIO\QrCode\DataTypes\\".$method;
+        $class = "SimpleSoftwareIO\QrCode\DataTypes\\" . $method;
 
         return $class;
     }

@@ -193,7 +193,7 @@ class Generator
      *
      * @param string $filepath
      * @param float $percentage
-     * @param SimpleSoftwareIO\QrCode\boolean|bool $absolute
+     * @param bool $absolute
      * @return Generator
      */
     public function merge(string $filepath, float $percentage = .2, bool $absolute = false): self

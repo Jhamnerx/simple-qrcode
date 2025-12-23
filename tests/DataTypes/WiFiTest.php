@@ -5,6 +5,8 @@ use Talentus\QrCode\DataTypes\WiFi;
 
 class WiFiTest extends TestCase
 {
+    private WiFi $wifi;
+
     public function setUp(): void
     {
         $this->wifi = new Wifi();
@@ -27,7 +29,7 @@ class WiFiTest extends TestCase
     {
         $this->wifi->create([
             0 => [
-                'ssid'   => 'foo',
+                'ssid' => 'foo',
                 'hidden' => 'true',
             ],
         ]);
@@ -41,7 +43,7 @@ class WiFiTest extends TestCase
     {
         $this->wifi->create([
             0 => [
-                'ssid'       => 'foo',
+                'ssid' => 'foo',
                 'encryption' => 'WPA',
                 'password'   => 'bar',
             ],
@@ -56,10 +58,10 @@ class WiFiTest extends TestCase
     {
         $this->wifi->create([
             0 => [
-                'ssid'       => 'foo',
+                'ssid' => 'foo',
                 'encryption' => 'WPA',
-                'password'   => 'bar',
-                'hidden'     => 'true',
+                'password' => 'bar',
+                'hidden' => 'true',
             ],
         ]);
 

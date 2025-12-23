@@ -1,5 +1,4 @@
-Simple QrCode
-========================
+# Simple QrCode
 
 ![Unit Tests](https://github.com/SimpleSoftwareIO/simple-qrcode/workflows/Unit%20Tests/badge.svg)
 [![Latest Stable Version](https://poser.pugx.org/simplesoftwareio/simple-qrcode/v/stable.svg)](https://packagist.org/packages/simplesoftwareio/simple-qrcode)
@@ -9,20 +8,22 @@ Simple QrCode
 
 ## [Deutsch](https://www.simplesoftware.io/#/docs/simple-qrcode/de) | [Español](https://www.simplesoftware.io/#/docs/simple-qrcode/es) | [Français](https://www.simplesoftware.io/#/docs/simple-qrcode/fr) | [Italiano](https://www.simplesoftware.io/#/docs/simple-qrcode/it) | [Português](https://www.simplesoftware.io/#/docs/simple-qrcode/pt-br) | [Русский](https://www.simplesoftware.io/#/docs/simple-qrcode/ru) | [日本語](https://www.simplesoftware.io/#/docs/simple-qrcode/ja) | [한국어](https://www.simplesoftware.io/#/docs/simple-qrcode/kr) | [हिंदी](https://www.simplesoftware.io/#/docs/simple-qrcode/hi) | [简体中文](https://www.simplesoftware.io/#/docs/simple-qrcode/zh-cn) | [العربية](https://www.simplesoftware.io/#/docs/simple-qrcode/ar)
 
-Language files are currently out of date.  We need volunteers to upgrade them to v4!  Please submit a PR request!
+Language files are currently out of date. We need volunteers to upgrade them to v4! Please submit a PR request!
 
 ## Introduction
-Simple QrCode is an easy to use wrapper for the popular Laravel framework based on the great work provided by [Bacon/BaconQrCode](https://github.com/Bacon/BaconQrCode).  We created an interface that is familiar and easy to install for Laravel users.
+
+Simple QrCode is an easy to use wrapper for the popular Laravel framework based on the great work provided by [Bacon/BaconQrCode](https://github.com/Bacon/BaconQrCode). We created an interface that is familiar and easy to install for Laravel users.
 
 ## Official Documentation
 
-Documentation for Simple QrCode can be found on our [website.](http://www.simplesoftware.io/#/docs/simple-qrcode)
+Documentation for Simple QrCode can be found [here](https://github.com/Jhamnerx/simple-qrcode/tree/develop/docs/en)
 
 ## Examples
 
 ![Example 1](docs/imgs/example-1.png) ![Example 2](docs/imgs/example-2.png)
 
 ## Use Cases
+
 <p align="center">
   <a href="https://www.rsvpify.com">
   	<img width="300" src="https://rsvpify.com/wp-content/uploads/2017/03/rsvpify-logo-header-rsvp.png">

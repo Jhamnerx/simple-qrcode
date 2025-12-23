@@ -7,7 +7,7 @@ class Image
     /**
      * Holds the image resource.
      *
-     * @var resource
+     * @var \GdImage|resource
      */
     protected $image;
 
@@ -42,9 +42,9 @@ class Image
     }
 
     /**
-     * Returns the image string.
+     * Returns the image resource.
      *
-     * @return string
+     * @return \GdImage|resource
      */
     public function getImageResource()
     {
@@ -54,7 +54,7 @@ class Image
     /**
      * Sets the image string.
      *
-     * @param resource $image
+     * @param \GdImage|resource $image
      */
     public function setImageResource($image)
     {
